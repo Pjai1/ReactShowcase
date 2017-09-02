@@ -13,20 +13,21 @@ class App extends Component {
     }
 
     render() {
-        const children = this.props.children;
+        // const children = this.props.children;
+        // console.log(children)
         return(
             <div className="container-fluid">
                 <Header />
                 <Main />
                 <h1>Root Component</h1>
-                {children}
+                {/* {children} */}
             </div>
         );
     }
 }
 
-App.PropTypes = {
-    children: PropTypes.object.isRequired
-};
+// App.PropTypes = {
+//     children: PropTypes.object.isRequired
+// };
 
 export default App;
