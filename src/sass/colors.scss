@@ -1,0 +1,10 @@
+$app-text-color: #4d4d4d;
+$nav-text-color: orange;
+
+#app {
+    color: $app-text-color;
+}
+
+a.active {
+    color: $nav-text-color;
+}
